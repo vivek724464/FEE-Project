@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@100&family=Source+Code+Pro:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(90deg, rgb(238, 113, 113), rgb(155, 155, 237));
+            font-family: Onest;
+        }
+
+        .main {
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            background-color: rgb(217, 235, 235);
+            border-radius: 10px;
+            height: 400px;
+            width: 400px;
+
+        }
+
+        .main h1 {
+            font-size: 40px;
+            padding: 5px;
+            text-align: center;
+            border-bottom: 1px solid black;
+        }
+
+        .text {
+            padding: 20px;
+            size: 40px;
+            font-size: 20px;
+
+
+        }
+
+        .forgtpass {
+            padding: 20px;
+        }
+
+        .loginbtn {
+            padding-left: 20px;
+
+        }
+
+        .loginbtn1 {
+            height: 40px;
+            width: 350px;
+            border-radius: 10px;
+            border-color: rgb(240, 196, 240);
+            background: rgb(168, 168, 251);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Login</h1>
+        <form>
+            <div class="text">
+                <label>Username</label>
+                <input type="text" placeholder="Type here" required>
+            </div>
+            <div class="text">
+                <label>Password</label>
+                <input type="password" placeholder="Type here" required>
+            </div>
+            <div class="forgtpass"><a href="">Forgot Password?</a></div>
+            <div class="loginbtn">
+                <form action="project.html">
+                    <input class="loginbtn1" type="submit" value="Login">
+                </form>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
